@@ -1,14 +1,22 @@
 \documentclass[a4paper,12pt]{article}
-
+\usepackage[top=1cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
 \usepackage[francais]{babel}
 \usepackage{eurosym}
+\pagestyle{empty}
 
 \begin{document}
-\section*{Tarifs à partir du \today}
+\parindent0pt
+\begin{center}
+\includegraphics[width=200pt]{urlab.png}
+
+ \Huge Tarifs
+\end{center}
+
 \LARGE
-\begin{tabular}{ | r | l |}
+\begin{tabular}{ | l | l |}
   \hline
   Thé & 0,50\euro \\
   Café & 0,50\euro \\
@@ -24,7 +32,7 @@
   Aiki (Couverts compris) & 1,80\euro \\
   Pizza & 3,00\euro \\
   \hline
-  
+
   \hline
 \end{tabular}
 \end{document}
